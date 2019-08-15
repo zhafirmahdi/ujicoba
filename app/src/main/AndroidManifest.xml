@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zhafirtubes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mind"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mind"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.zhafirtubes.activity.WelcomeActivity"
+            android:theme="@style/noTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.zhafirtubes.activity.SplashActivity"
+            android:theme="@style/noTitleBar" />
+        <activity
+            android:name="com.example.zhafirtubes.activity.LoginActivity"
+            android:theme="@style/noTitleBar" />
+        <activity android:name="com.example.zhafirtubes.activity.MainActivity" />
+        <activity
+            android:name="com.example.zhafirtubes.activity.RegisterActivity"
+            android:theme="@style/noTitleBar" />
+
+        <activity android:name="com.example.zhafirtubes.activity.FriendsAddActivity"/>
+    </application>
+
+</manifest>
